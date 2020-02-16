@@ -1,4 +1,3 @@
-ifneq ($(QCPATH),)
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
@@ -31,4 +30,3 @@ endif
 include $(BUILD_SHARED_LIBRARY)
 
 endif # BOARD_HAVE_QCOM_FM
-endif
